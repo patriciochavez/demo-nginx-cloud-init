@@ -12,6 +12,13 @@
 </head>
 <body>
 <h1>Demo openstack, ubuntu, cloud-init, nginx y github</h1>
-Prueba de concepto de instancia ubuntu personalizada
+Instancia ubuntu personalizada con IP:
+<div id="ip"></div>
+<script>
+        var url=window.location.href;
+        var arr=url.split("/");
+        var result=arr[2];
+        document.getElementById("ip").innerHTML=result;
+</script>
 </body>
 </html>
