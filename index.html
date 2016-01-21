@@ -13,12 +13,12 @@
 <body>
 <h1>Demo openstack, ubuntu, cloud-init, nginx y github</h1>
 Instancia ubuntu personalizada con IP:
-<div id="ip"></div>
+<div id="ip" sytle="color:blue"></div>
 <script>
         var url=window.location.href;
         var arr=url.split("/");
         var result=arr[2];
-        document.getElementById("ip").innerHTML=result;
+        document.getElementById("ip").innerHTML="<b>" + result + "<b>";
 </script>
 </body>
 </html>
